@@ -59,7 +59,7 @@ class LogStash::Outputs::Xmpp < LogStash::Outputs::Base
 
   public
   def receive(event)
-    return unless output?(event)
+    
 
     string_message = event.sprintf(@message)
     @users.each do |user|
