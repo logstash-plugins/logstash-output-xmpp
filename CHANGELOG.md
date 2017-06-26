@@ -1,3 +1,6 @@
+## 3.0.5
+  - Relax constraints on xmpp4r to be able to install both the input and the output at the same time
+
 ## 3.0.2
   - Relax constraint on logstash-core-plugin-api to >= 1.60 <= 2.99
 
