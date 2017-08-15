@@ -1,3 +1,6 @@
+## 3.0.6
+  - Fix some documentation issues
+
 ## 3.0.5
   - Relax constraints on xmpp4r to be able to install both the input and the output at the same time
 
