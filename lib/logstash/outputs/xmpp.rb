@@ -51,6 +51,7 @@ class LogStash::Outputs::Xmpp < LogStash::Outputs::Base
   public
   def connect
     Jabber::debug = true
+    Thread::abort_on_exception = false
     client = Jabber::Client.new(Jabber::JID.new(@user))
     client.connect(@host)
     client.auth(@password.value)
